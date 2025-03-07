@@ -25,5 +25,7 @@ public class App {
             System.out.println(prod.toString());
         }
         new MainFrameVM(itemMachine);
+
+        System.out.println(itemMachine.getProdByName("Milk"));
     }
 }
